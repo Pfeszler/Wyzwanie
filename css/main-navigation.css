@@ -1,0 +1,28 @@
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: calc((100vw - 65vw) / 2);
+    left: calc((100vw - 65vw) / 2);
+    padding: 60px 0px;
+    margin: 0 auto;
+}
+
+.main-navigation__list {
+    list-style: none;
+    display: flex;
+}
+
+.main-navigation__list-item {
+    margin-right: 40px;
+    border-bottom: 1px solid transparent;
+}
+
+.main-navigation__list-link {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
