@@ -18,8 +18,9 @@
 
 .main-navigation__list-item {
     margin-right: 40px;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     padding-bottom: 9px;
+    
 }
 
 .main-navigation__list-item:hover {
