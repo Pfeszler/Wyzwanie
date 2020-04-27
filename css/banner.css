@@ -79,8 +79,7 @@
 @media (max-width: 991px) {
     .banner__header {
         font-size: 40px;
-        margin-top: 70px;
-        margin-bottom: 50px;
+        margin: 70px 10px 50px 10px;
         line-height: 1.5em;
     }
 }
@@ -89,7 +88,8 @@
 .banner__text {
     font-size: 15px;
     line-height: 2em;
-    margin-bottom: 50px;
+    margin: 50px 10px;
+    margin-top: unset;
 }
 }
 @media (max-width: 991px) {
