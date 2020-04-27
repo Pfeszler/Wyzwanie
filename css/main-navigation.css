@@ -1,17 +1,14 @@
 .main-navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    
+    position: absolute;
+    z-index: 4;
+    width: 100%
 }
 
 .main-navigation__inner {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   padding: 60px calc((100% - 65vw) / 2);
+    padding: 60px calc((100% - 65vw) / 2);
 }
 
 .main-navigation__list {
@@ -129,10 +126,10 @@
 @media (max-width: 991px) {
     .main-navigation__button--noborder {
         position: relative;
-        left: calc(100% - 20px * 2 - 25px);
         border-right: none;
         padding-top: 0;
         padding-bottom: 50px;
+        left: calc(100% - 65px)
     }
 }
 

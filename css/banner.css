@@ -46,7 +46,8 @@
 .banner__text {
     font-size: 20px;
     margin-bottom: 70px;
-    line-height: 2em
+    line-height: 2em;
+    font-weight: 300;
 }
 
 .banner__button {
@@ -96,4 +97,5 @@
 .banner__button {
     padding: 20px 30px;
     margin: 10px;
+}
 }

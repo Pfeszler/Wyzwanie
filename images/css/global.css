@@ -1,8 +1,0 @@
-*, *::before, *::after {
-    box-sizing: border-box
-}
-
-:root {
-    font-family: 'Roboto', sans-serif;
-    --color-main: #fb414e;
-}
