@@ -8,62 +8,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Source+Sans+Pro:wght@300;400;700;900&display=swap"
-        rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/main-navigation.css" rel="stylesheet">
     <link href="css/banner.css" rel="stylesheet">
-
-
 </head>
-<nav class="main-navigation">
-    <section class="main-navigation__inner">
-        <section class="main-navigation__logo">
-            <a class="main-navigation__logo-link" href="#">
-                <img class="main-navigation__logo-image" src="images/logo.png" alt="company logo">
-            </a>
-        </section>
 
-        <ul class="main-navigation__list">
-            <li class="main-navigation__list-item main-navigation__list-item--mobile">
-                <button class="main-navigation__button">
-                    <img src="images/mobile-menu-back.png">
+<body>
+    <header class="banner">
+        <article class="banner__container">
+            <h1 class="banner__header">
+                helping bussines and companies innovate and transform
+            </h1>
+            <section class="banner__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus ea dolore impedit doloribus magnam
+                vitae, exercitationem commodi reprehenderit nostrum ab a ipsum recusandae accusamus hic nesciunt?
+                Mollitia, ducimus? Reprehenderit!
+            </section>
+            <section class="banner__buttons">
+                <button class="banner__button">
+                    <a class="banner__button-link" href="">
+                        start now
+                    </a>
                 </button>
-                <a class="main-navigation__list-link" href="#">
-                    back
+                <button class="banner__button">
+                    <a class="banner__button-link" href="">
+                        our services
+                    </a>
+                </button>
+            </section>
+        </article>
+    </header>
+    <nav class="main-navigation">
+        <section class="main-navigation__inner">
+            <section class="main-navigation__logo">
+                <a class="main-navigation__logo-link" href="#">
+                    <img class="main-navigation__logo-image" src="images/logo.png" alt="company logo">
                 </a>
-            </li>
-            <li class="main-navigation__list-item">
-                <a class="main-navigation__list-link" href="#">
-                    home
-                </a>
-            </li>
-            <li class="main-navigation__list-item">
-                <a class="main-navigation__list-link" href="">
-                    services
-                </a>
-            </li>
-            <li class="main-navigation__list-item">
-                <a class="main-navigation__list-link" href="">
-                    works
-                </a>
-            </li>
-            <li class="main-navigation__list-item">
-                <a class="main-navigation__list-link" href="">
-                    contact
-                </a>
-            </li>
-        </ul>
-    </section>
-    <button class="main-navigation__button main-navigation__button--noborder">
-        <img class="main-navigation__button-image" src="images/navigation.svg" alt="navigation button for menu">
-    </button>
-</nav>
-<main>
-    <section class="banner">
+            </section>
 
-    </section>
-</main>
+            <ul class="main-navigation__list js-main-navigation__list">
+                <li class="main-navigation__list-item main-navigation__list-item--mobile">
+                    <button class="main-navigation__button js-button2">
+                        <img src="images/mobile-menu-back.png">
+                    </button>
+                    <a class="main-navigation__list-link" href="#">
+                        back
+                    </a>
+                </li>
+                <li class="main-navigation__list-item">
+                    <a class="main-navigation__list-link" href="#">
+                        home
+                    </a>
+                </li>
+                <li class="main-navigation__list-item">
+                    <a class="main-navigation__list-link" href="">
+                        services
+                    </a>
+                </li>
+                <li class="main-navigation__list-item">
+                    <a class="main-navigation__list-link" href="">
+                        works
+                    </a>
+                </li>
+                <li class="main-navigation__list-item">
+                    <a class="main-navigation__list-link" href="">
+                        contact
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+        <button class="main-navigation__button main-navigation__button--noborder js-button">
+            <img class="main-navigation__button-image" src="images/navigation.svg" alt="navigation button for menu">
+        </button>
+        <script src="js/main.navigation.js"></script>
+    </nav>
+</body>
 
 </html>
