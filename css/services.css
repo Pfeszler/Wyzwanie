@@ -50,8 +50,43 @@ color: #a7a7a7
 .services__icon-header {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: capitalize;
+    font-size: 25px;
 }
 
 .services__icon-header--noncapital {
     text-transform: none
+}
+
+@media (max-width: 991px) {
+    .services {
+        width: unset;
+    }
+}
+
+@media (max-width: 991px) {
+    .services__header--red {
+       display: block;
+       margin: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .services__discription--above {
+        width: unset;
+        margin: 30px;
+       }
+}
+
+@media (max-width: 991px) {
+    .services__icon-list {
+   flex-direction: column;
+   padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .services__list-item {
+        width: unset;
+        padding: 50px 65px;
+    }
 }
