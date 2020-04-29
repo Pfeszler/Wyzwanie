@@ -2,17 +2,16 @@
     position: relative;
     bottom: 60px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    
 }
+
 .tiles__container {
     width: 400px;
     height: 400px;
     background: #202b30;
-    margin:0 10px;
+    margin: 0 10px;
     padding: 60px 50px;
-    color: white; 
+    color: white;
 }
 
 .tiles__container--red {
@@ -20,18 +19,18 @@
 }
 
 .tiles__header {
- font-weight: 400;
- margin: 60px 0;
- position: relative;
- text-transform: capitalize;
+    font-weight: 400;
+    margin: 60px 0;
+    position: relative;
+    text-transform: capitalize;
 }
+
 .tiles__header::before {
-    content: "" ;
+    content: "";
     width: 20%;
     top: 50px;
     position: absolute;
-    border-bottom: 3px solid white ;
-    
+    border-bottom: 3px solid white;
 }
 
 .tiles__icon {
@@ -40,7 +39,7 @@
 
 @media (max-width: 991px) {
     .tiles {
-      flex-direction: column
+        flex-direction: column
     }
 }
 
@@ -53,6 +52,6 @@
 
 @media (max-width: 991px) {
     .tiles__header {
-  font-size: 18px;
-       }
+        font-size: 18px;
     }
+}
