@@ -60,6 +60,11 @@
     margin: 20px;
     transition: 0.3s;
 }
+@media (orientation: portrait) and (max-width:991px) {
+    .banner {
+        height: 130vh;
+    }
+}
 
 @media (orientation: landscape) and (max-width:991px) {
     .banner {
