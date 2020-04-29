@@ -39,7 +39,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     font-family: Arial, sans-serif;
     line-height: 1em;
 }
@@ -90,4 +89,5 @@
     border: none;
     background: var(--color-main);
     color: white;
+    font-weight: bold;
 }
