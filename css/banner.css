@@ -50,23 +50,19 @@
     font-weight: 300;
 }
 
-.banner__button {
-    background: transparent;
-    border: 2px solid var(--color-main);
-    padding: 20px 50px;
-    margin: 20px;
-    transition: 0.3s;
-}
-
 .banner__button:hover {
     background-color: var(--color-main);
 }
 
-.banner__button-link {
+.banner__button {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
+    border: 2px solid var(--color-main);
+    padding: 20px 50px;
+    margin: 20px;
+    transition: 0.3s;
 }
 
 @media (max-width: 991px) {
