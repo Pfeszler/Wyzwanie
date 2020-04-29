@@ -1,6 +1,6 @@
 .banner {
     width: 100%;
-    height: 110vh;
+    height: 850px;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center center;
@@ -23,7 +23,7 @@
     position: relative;
     z-index: 2;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center ;
     color: white;
     text-align: center;
     height: 100%;
@@ -57,24 +57,14 @@
     font-weight: bold;
     border: 2px solid var(--color-main);
     padding: 20px 50px;
-    margin: 20px;
+    margin: 20px ;
     transition: 0.3s;
-}
-@media (orientation: portrait) and (max-width:991px) {
-    .banner {
-        height: 130vh;
-    }
-}
-
-@media (orientation: landscape) and (max-width:991px) {
-    .banner {
-        height: 180vh;
-    }
 }
 
 @media (max-width: 991px) {
     .banner__container {
         width: 100%;
+        padding-top: 50px;
         margin: 0px auto;
     }
 }
@@ -99,6 +89,13 @@
 @media (max-width: 991px) {
     .banner__button {
         padding: 20px 30px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 331px) {
+    .banner__button {
+        padding: 5px 10px;
         margin: 10px;
     }
 }
