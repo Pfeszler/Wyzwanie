@@ -14,6 +14,7 @@
     <link href="css/tiles.css" rel="stylesheet">
     <link href="css/services.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
@@ -73,12 +74,12 @@
                 deleniti ducimus esse. Eum, harum!
             </section>
             <section class="banner__buttons">
-                    <a class="banner__button" href="/start-now">
-                        start now
-                    </a>
-                    <a class="banner__button" href="/our-services">
-                        our services
-                    </a>
+                <a class="banner__button" href="/start-now">
+                    start now
+                </a>
+                <a class="banner__button" href="/our-services">
+                    our services
+                </a>
             </section>
         </article>
     </header>
@@ -141,7 +142,7 @@
                 </h2>
                 <p class="services__discription">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis error incidunt vero minus est
-                    adipisci nemo neque soluta laboriosam. 
+                    adipisci nemo neque soluta laboriosam.
                 </p>
             </li>
             <li class="services__list-item">
@@ -151,7 +152,7 @@
                 </h2>
                 <p class="services__discription">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet ratione placeat libero,
-                    temporibus asperiores nesciunt tenetur accusantium. 
+                    temporibus asperiores nesciunt tenetur accusantium.
                 </p>
             </li>
             <li class="services__list-item">
@@ -181,7 +182,7 @@
                 </h2>
                 <p class="services__discription">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo culpa laborum facere dolorum
-                    fugiat vero distinctio odio nulla libero 
+                    fugiat vero distinctio odio nulla libero
                 </p>
             </li>
         </ul>
@@ -195,6 +196,54 @@
         <img class="gallery__image" alt="bottle" src="images/gallery/6.jpg">
         <img class="gallery__image" alt="?" src="images/gallery/7.jpg">
         <img class="gallery__image" alt="packages" src="images/gallery/8.jpg">
+    </article>
+    <article class="contact" id="contact">
+        <section class="contact__text">
+            <h1 class=contact__header>
+                Want to have professional project? Let's talk about it.
+            </h1>
+            <p class="contact__discription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe tenetur dolorum asperiores
+                dolores in totam accusantium ipsam, perferendis accusamus veritatis maxime nulla, quis temporibus
+                doloremque? Laborum vel enim explicabo.
+            </p>
+            <p class="contact__discription">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt tempora repudiandae accusantium
+                expedita ullam sunt! Omnis aperiam praesentium debitis obcaecati, quo rem officiis eum quis dicta
+                voluptatum dolor. Beatae!
+            </p>
+        </section>
+        <form class="contact__form">
+            <section class="contact__form-item">
+                <label class="contact__form-label">Your name*</label>
+                <input class="contact__form-input" required name="your-name">
+            </section>
+            <div class="contact__smaller-items">
+            <section class="contact__form-item contact__form-item--smaller">
+                <label class="contact__form-label">Company name*</label>
+                <input class="contact__form-input" required name="company-name">
+            </section>
+            <section class="contact__form-item contact__form-item--smaller">
+                <label class="contact__form-label">email address*</label>
+                <input class="contact__form-input" required type="email" name="emial">
+            </section>
+           </div>
+            <section class="contact__form-item">
+                <label class="contact__form-label">Select Service*</label>
+                <select class="contact__form-input" required name="select">
+
+                    <option class="contact__form-option" value="web">Web Design</option>
+                    <option class="contact__form-option" value="something">Something Else</option>
+                </select>
+            </section>
+            <section class="contact__form-item">
+                <label class="contact__form-label">describe your project*</label>
+                <textarea class="contact__form-input" required type="text" name="project*" rows="12">
+
+                 </textarea>
+            </section>
+            <button class="contact__form-button">Submit</button>
+        </form>
     </article>
 </body>
 
