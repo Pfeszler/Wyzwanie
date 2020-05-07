@@ -79,7 +79,6 @@
 @media (max-width: 991px) {
     .banner__text {
         font-size: 15px;
-        line-height: 2em;
         margin: 50px 10px;
         margin-top: unset;
     }
