@@ -18,60 +18,61 @@
 </head>
 
 <body>
-    <nav class="main-navigation">
-        <section class="main-navigation__inner">
-            <section class="main-navigation__logo">
-                <a class="main-navigation__logo-link" href="#">
-                    <img class="main-navigation__logo-image" src="images/logo.png" alt="company logo">
-                </a>
-            </section>
-
-            <ul class="main-navigation__list js-main-navigation__list">
-                <li class="main-navigation__list-item main-navigation__list-item--mobile">
-                    <button class="main-navigation__button js-button2">
-                        <img src="images/mobile-menu-back.png" alt="back-button">
-                    </button>
-                    <a class="main-navigation__list-link js-button3" href="#">
-                        back
-                    </a>
-                </li>
-                <li class="main-navigation__list-item">
-                    <a class="main-navigation__list-link" href="#">
-                        home
-                    </a>
-                </li>
-                <li class="main-navigation__list-item">
-                    <a class="main-navigation__list-link" href="#services">
-                        services
-                    </a>
-                </li>
-                <li class="main-navigation__list-item">
-                    <a class="main-navigation__list-link" href="#gallery">
-                        works
-                    </a>
-                </li>
-                <li class="main-navigation__list-item">
-                    <a class="main-navigation__list-link" href="#contact">
-                        contact
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <button class="main-navigation__button main-navigation__button--noborder js-button">
-            <img class="main-navigation__button-image" src="images/navigation.svg" alt="navigation button for menu">
-        </button>
-        <script src="JS/main.navigation.js"></script>
-    </nav>
+    
     <header class="banner">
-        <article class="banner__container">
+        <nav class="main-navigation">
+            <div class="main-navigation__inner">
+                <div class="main-navigation__logo">
+                    <a class="main-navigation__logo-link" href="#">
+                        <img class="main-navigation__logo-image" src="images/logo.png" alt="company logo">
+                    </a>
+                </div>
+    
+                <ul class="main-navigation__list js-main-navigation__list">
+                    <li class="main-navigation__list-item main-navigation__list-item--mobile">
+                        <button class="main-navigation__button js-button-back">
+                            <img src="images/mobile-menu-back.png" alt="back-button">
+                        </button>
+                        <a class="main-navigation__link js-text-back" href="#">
+                            back
+                        </a>
+                    </li>
+                    <li class="main-navigation__list-item">
+                        <a class="main-navigation__link" href="#">
+                            home
+                        </a>
+                    </li>
+                    <li class="main-navigation__list-item">
+                        <a class="main-navigation__link" href="#services">
+                            services
+                        </a>
+                    </li>
+                    <li class="main-navigation__list-item">
+                        <a class="main-navigation__link" href="#gallery">
+                            works
+                        </a>
+                    </li>
+                    <li class="main-navigation__list-item">
+                        <a class="main-navigation__link" href="#contact">
+                            contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="main-navigation__button main-navigation__button--noborder js-nav-button">
+                <img class="main-navigation__button-image" src="images/navigation.svg" alt="navigation button for menu">
+            </button>
+            <script src="JS/main.navigation.js"></script>
+        </nav>
+        <section class="banner__container">
             <h1 class="banner__header">
                 helping bussines and companies innovate and transform
             </h1>
-            <section class="banner__text">
+            <p class="banner__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum debitis molestias labore alias?
                 Repudiandae facilis quibusdam quod voluptate sunt molestias dolorum iusto, asperiores illo deserunt,
                 deleniti ducimus esse. Eum, harum!
-            </section>
+            </p>
             <section class="banner__buttons">
                 <a class="banner__button" href="/start-now">
                     start now
@@ -80,113 +81,113 @@
                     our services
                 </a>
             </section>
-        </article>
+        </section>
     </header>
-
-    <article class="tiles" id="tiles">
-        <section class="tiles__container tiles__container--red">
-            <img class="tiles__icon" alt="some logos" src="images/tiles/content-concept-strategy.svg">
-            <h2 class="tiles__header">
+<main>
+    <section class="tiles" id="tiles">
+        <section class="tiles__element tiles__element--red">
+            <img class="tiles__icon" alt="icon- papersheets" src="images/tiles/content-concept-strategy.svg">
+            <h3 class="tiles__header">
                 Content concept & strategy
-            </h2>
+            </h3>
             <p class="tiles__text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </p>
         </section>
-        <section class="tiles__container">
-            <img class="tiles__icon" alt="some logos" src="images/tiles/design-conscepts.svg">
-            <h2 class="tiles__header">
+        <section class="tiles__element">
+            <img class="tiles__icon" alt="icon- pencil and mesure" src="images/tiles/design-conscepts.svg">
+            <h3 class="tiles__header">
                 design & concept
-            </h2>
+            </h3>
             <p class="tiles__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ex libero unde id, vero maiores
             </p>
         </section>
-        <section class="tiles__container">
-            <img class="tiles__icon" alt="some logos" src="images/tiles/seo-marketing.svg">
-            <h2 class="tiles__header">
+        <section class="tiles__element">
+            <img class="tiles__icon" alt="icon- hand glass" src="images/tiles/seo-marketing.svg">
+            <h3 class="tiles__header">
                 SEO & marketing solution
-            </h2>
+            </h3>
             <p class="tiles__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit enim quidem
             </p>
         </section>
-    </article>
-    <article class="services" id="services">
-        <h3 class="services__title">
+    </section>
+    <section class="services" id="services">
+        <h2 class="services__title">
             Services
-        </h3>
-        <h1 class="services__header">
+        </h2>
+        <h3 class="services__header">
             Best services for <span class="services__header--red">visual perfection</span>
-        </h1>
+        </h3>
         <p class="services__discription services__discription--above">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia minima at officia vero perferendis modi, unde
             aut nam consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         </p>
-        <ul class="services__icon-list">
+        <ul class="services__list">
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/strategy.png">
-                <h2 class="services__icon-header">
+                <img class="services__image" alt="icon- gear" src="images/icons/strategy.png">
+                <h3 class="services__item-header">
                     strategy
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque et voluptate quos corrupti delectus,
                     ea voluptates neque vitae repudiandae illo, deleniti vel.
                 </p>
             </li>
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/marketing.png">
-                <h2 class="services__icon-header">
+                <img class="services__image" alt="icon - lightbulb with plant within" src="images/icons/marketing.png">
+                <h3 class="services__item-header">
                     marketing
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis error incidunt vero minus est
                     adipisci nemo neque soluta laboriosam.
                 </p>
             </li>
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/technology.png">
-                <h2 class="services__icon-header">
+                <img class="services__image" alt="icon- system widows" src="images/icons/technology.png">
+                <h3 class="services__item-header">
                     technology
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet ratione placeat libero,
                     temporibus asperiores nesciunt tenetur accusantium.
                 </p>
             </li>
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/ecommerce.png">
-                <h2 class="services__icon-header services__icon-header--noncapital">
+                <img class="services__image" alt="icon - laptop" src="images/icons/ecommerce.png">
+                <h3 class="services__item-header services__item-header--noncapital">
                     eComerce
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, explicabo facere sit quos
                     aspernatur sunt minus consequuntur
                 </p>
             </li>
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/branding.png">
-                <h2 class="services__icon-header">
+                <img class="services__image" alt="icon - papersheets" src="images/icons/branding.png">
+                <h3 class="services__item-header">
                     branding
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit qui cum voluptas
                     exercitationem ut! Maiores exercitationem
                 </p>
             </li>
             <li class="services__list-item">
-                <img class="services__icon-image" alt="some icon" src="images/icons/seo.png">
-                <h2 class="services__icon-header">
+                <img class="services__image" alt="icon - hand glass and head"src="images/icons/seo.png">
+                <h3 class="services__item-header">
                     SEO
-                </h2>
+                </h3>
                 <p class="services__discription">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo culpa laborum facere dolorum
                     fugiat vero distinctio odio nulla libero
                 </p>
             </li>
         </ul>
-    </article>
-    <article class="gallery" id="gallery">
+    </section>
+    <section class="gallery" id="gallery">
         <img class="gallery__image" alt="chimney" src="images/gallery/1.jpg">
         <img class="gallery__image" alt="desk" src="images/gallery/2.jpg">
         <img class="gallery__image" alt="phone and hoody" src="images/gallery/3.jpg">
@@ -195,15 +196,15 @@
         <img class="gallery__image" alt="bottle" src="images/gallery/6.jpg">
         <img class="gallery__image" alt="?" src="images/gallery/7.jpg">
         <img class="gallery__image" alt="packages" src="images/gallery/8.jpg">
-    </article>
+    </section>
 
     </form>
-    </article>
-    <article class="contact" id="contact">
+    </section>
+    <section class="contact" id="contact">
         <section class="contact__text">
-            <h1 class=contact__header>
+            <h2 class=contact__header>
                 Want to have professional project? Let's talk about it.
-            </h1>
+            </h2>
             <p class="contact__discription">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe tenetur dolorum asperiores
                 dolores in totam accusantium ipsam, perferendis accusamus veritatis maxime nulla, quis temporibus
@@ -245,6 +246,9 @@
                  </textarea>
             </section>
             <button class="contact__form-button">Submit</button>
+        </form>
+    </section>
+</main>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.tiles__container {
+.tiles__element {
     width: 400px;
     height: 400px;
     background: #202b30;
@@ -14,7 +14,7 @@
     color: white;
 }
 
-.tiles__container--red {
+.tiles__element--red {
     background: var(--color-main);
 }
 
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 991px) {
-    .tiles__container {
+    .tiles__element {
         width: calc(100% - 20px);
         margin: 10px;
     }

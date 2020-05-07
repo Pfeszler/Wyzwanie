@@ -1,7 +1,7 @@
 (() => {
-    const button = document.querySelector(".js-button");
-    const button2 = document.querySelector(".js-button2");
-    const button3 = document.querySelector(".js-button3");
+    const button = document.querySelector(".js-nav-button");
+    const button2 = document.querySelector(".js-button-back");
+    const button3 = document.querySelector(".js-text-back");
     const menu = document.querySelector(".js-main-navigation__list");
 
     const toggleClass = () => {

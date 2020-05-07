@@ -33,7 +33,7 @@
     margin: auto;
 }
 
-.services__icon-list {
+.services__list {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -47,13 +47,13 @@
     padding: 50px 65px;
 }
 
-.services__icon-header {
+.services__item-header {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: capitalize;
     font-size: 25px;
 }
 
-.services__icon-header--noncapital {
+.services__item-header--noncapital {
     text-transform: none
 }
 
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 991px) {
-    .services__icon-list {
+    .services__list {
         flex-direction: column;
         padding: 0;
     }
